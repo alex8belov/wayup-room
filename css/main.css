@@ -12,7 +12,11 @@ div, p, input, button, form, span, a, ul, li {
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+}
+p {
+    line-heaght: 1.6em;
 }
 .container {
     width: 1170px;
@@ -31,13 +35,17 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
 }
 .offer {
+    width: 490px;
     margin-top: 166px;
 }
 .title {
     font-size: 36px;
+    
 }
 .intro {
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 380px;
 }
 .green {
     color: #48ed8e;
