@@ -27,12 +27,14 @@ p {
     background: rgb(42,34,64);
     background: linear-gradient(321deg, rgba(42,34,64,1) 0%, rgba(71,62,95,1) 100%);
     padding-top: 100px;
+    padding-bottom: 225px;
 }
 .logo {
     
 }
 .wrapper {
     display: flex;
+    justify-content: space-between;
 }
 .offer {
     width: 490px;
@@ -60,4 +62,7 @@ p {
     width: 205px;
     padding: 20px 0;
     text-align: center;
+}
+.desktop {
+    margin-top: 72px;
 }
