@@ -38,7 +38,7 @@ p {
 }
 .offer {
     width: 490px;
-    margin-top: 166px;
+    margin-top: 240px;
 }
 .title {
     font-size: 36px;
@@ -62,7 +62,24 @@ p {
     width: 205px;
     padding: 20px 0;
     text-align: center;
+    transition: all 0.5s ease;
+}
+.btn:hover {
+    background: #d9860e;
 }
 .desktop {
     margin-top: 72px;
+}
+
+.learn {
+    background: #fff;
+}
+
+.email {
+    background: #efecf4;
+}
+
+.footer {
+    color: #fff;
+    background: #201b2d;
 }
