@@ -4,6 +4,7 @@ body {
     font-size: 15px;
     padding: 0;
     margin: 0;
+    min-width: 1250px;
 }
 
 div, p, input, button, form, span, a, ul, li {
@@ -23,7 +24,6 @@ p {
     margin: 0 auto;
 }
 .header {
-    min-width: 1250px;
     color: #ffffff;
     background: rgb(42,34,64);
     background: linear-gradient(321deg, rgba(42,34,64,1) 0%, rgba(71,62,95,1) 100%);
