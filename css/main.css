@@ -71,11 +71,35 @@ p {
 .desktop {
     margin-top: 72px;
 }
-
+.section-title {
+    font-size: 30px;
+}
 .learn {
     background: #fff;
+    padding-top: 110px;
+    padding-bottom: 120px;
 }
-
+.skills {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.skill-title {
+    font-size: 18px;
+}
+.skill {
+    width: 360px;
+    padding-left: 90px;
+}
+.skill-1 {
+    background: url("../img/icon1.jpg") no-repeat left top;
+}
+.skill-2 {
+    background: url("../img/icon2.jpg") no-repeat left top;    
+}
+.skill-3 {
+    background: url("../img/icon3.jpg") no-repeat left top;    
+}
 .email {
     background: #efecf4;
 }
